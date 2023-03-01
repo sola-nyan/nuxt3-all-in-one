@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.28.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "dev:pwa": "VITE_PLUGIN_PWA=true nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview:build": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "check-update": "npm-check-updates"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.3",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@quasar/vite-plugin": "^1.3.0",
+    "@unocss/nuxt": "^0.50.1",
+    "@vueuse/nuxt": "^9.13.0",
+    "eslint": "^8.35.0",
+    "npm-check-updates": "^16.7.10",
+    "nuxt": "^3.2.3",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.11",
+    "quasar": "^2.11.7"
+  }
+}
